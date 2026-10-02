@@ -1,0 +1,7 @@
+Issue,Evidence,Decision
+TotalCharges stored as string,11 rows with blank strings; dtype=object,pd.to_numeric(errors=coerce) → fillna(0); all have tenure=0
+Class imbalance (~26.5% churn),"5,174 No Churn vs 1,869 Churn",class_weight=balanced in all models; compare vs SMOTE in CV
+Multicollinearity: TotalCharges ≈ tenure × MonthlyCharges,r=0.997 between TotalCharges and tenure×MonthlyCharges,Keep all three; engineer avg_monthly_spend; use regularisation for LR
+Redundant categorical values,"""No internet service"" in 6 cols; ""No phone service"" in MultipleLines","Replace with ""No"" — information already in InternetService/PhoneService"
+"Low-signal features (gender, PhoneService)",Cramér's V < 0.05,Keep — tree models ignore them; dropping risks bias
+No temporal information,Single static snapshot; no timestamps,Noted as limitation; tenure used as proxy for time

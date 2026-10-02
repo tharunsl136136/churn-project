@@ -1,0 +1,11 @@
+Step,Detail,Why
+TotalCharges fix,pd.to_numeric(errors=coerce) → fillna(0),New customers (tenure=0) have no billing history
+Drop customerID,"df.drop(columns=[""customerID""])","Unique ID, zero predictive signal, leakage risk"
+Normalise categoricals,"""No internet service"" / ""No phone service"" → ""No""",Redundant encoding; reduces OHE cardinality
+Stratified split,"60/20/20, stratify=y, random_state=42",Preserves 26.5% churn rate in all splits
+Feature engineering,12 new features (see features.py),Capture non-linear and interaction effects
+Numeric imputation,SimpleImputer(strategy=median),Robust to outliers; no missing values in this dataset but defensive
+Scaling (linear only),StandardScaler on numeric cols,LR/SVM are distance-based; trees do not need scaling
+OHE (categorical),"OneHotEncoder(handle_unknown=ignore, drop=if_binary)",Handles unseen categories at inference; avoids dummy trap
+Contract encoding,"OrdinalEncoder: Two year=0, One year=1, Month-to-month=2",Natural ordinal churn-risk ordering
+Imbalance handling,class_weight=balanced (primary); SMOTE inside CV (comparison),Avoids accuracy paradox; SMOTE kept inside folds to prevent leakage

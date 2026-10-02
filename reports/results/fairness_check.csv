@@ -1,0 +1,5 @@
+group_col,group_val,n,churn_rate,recall,FPR,f1
+gender,Female,714,0.29,0.903,0.396,0.629
+gender,Male,695,0.24,0.916,0.407,0.572
+SeniorCitizen,0,1170,0.232,0.89,0.365,0.575
+SeniorCitizen,1,239,0.427,0.961,0.642,0.681

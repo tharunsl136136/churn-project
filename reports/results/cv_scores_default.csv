@@ -1,0 +1,8 @@
+,cv_prauc_mean,cv_prauc_std
+LogisticRegression,0.6656,0.0372
+RandomForest,0.6267,0.01
+LightGBM,0.6128,0.0217
+XGBoost,0.612,0.0225
+DecisionTree,0.5976,0.021
+Dummy_MostFrequent,0.2653,0.0005
+CatBoost,,

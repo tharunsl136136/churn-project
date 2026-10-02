@@ -1,0 +1,9 @@
+Rank,Feature,Direction,Business meaning
+1,is_month_to_month / Contract,Positive,Month-to-month customers have no switching cost; easiest to leave
+2,tenure,Negative,Longer-tenured customers are more loyal; churn risk drops sharply after 12 months
+3,MonthlyCharges,Positive,Higher bills increase price sensitivity and churn risk
+4,InternetService (Fiber optic),Positive,Fiber optic customers pay more and have more alternatives; higher churn
+5,num_services / has_protection_bundle,Negative,More services = higher switching cost = lower churn
+6,TechSupport / OnlineSecurity,Negative,Customers with support services feel more protected; less likely to leave
+7,is_autopay,Negative,Automatic payment reduces billing friction and churn
+8,charge_gap,Positive,Recent price increase signal; customers who pay more than their average are at risk

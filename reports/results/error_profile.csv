@@ -1,0 +1,7 @@
+,FN (missed),TP (caught),FP (false alarm),TN (correct)
+tenure,41.65,16.11,24.28,46.45
+MonthlyCharges,66.44,76.19,71.26,53.55
+TotalCharges,3327.62,1416.31,2041.4,2821.78
+num_services,2.82,1.68,1.84,2.21
+avg_monthly_spend,63.85,63.48,64.9,51.93
+charge_gap,2.59,12.71,6.36,1.63

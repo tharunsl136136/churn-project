@@ -1,0 +1,38 @@
+# ── Core ML ───────────────────────────────────────────────────────────────────
+# Pinned to exact versions tested in this project (Python 3.11)
+scikit-learn==1.9.1
+lightgbm==4.7.0
+xgboost==3.2.0
+catboost==1.2.10
+imbalanced-learn==0.14.2       # imblearn pipeline utilities (installed, not used directly)
+
+# ── Hyperparameter tuning ─────────────────────────────────────────────────────
+optuna==5.0.0                  # TPE sampler, 50 trials per model
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+pandas==3.0.6
+numpy==2.4.6
+scipy==1.17.1                  # chi2_contingency (Cramér's V), McNemar test
+
+# ── Explainability ────────────────────────────────────────────────────────────
+shap==0.51.0                   # TreeExplainer — exact SHAP values for tree models
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib==3.11.2
+seaborn==0.13.2
+plotly==7.1.0
+
+# ── Dashboard ─────────────────────────────────────────────────────────────────
+streamlit==1.64.0
+pillow==12.3.0                 # image loading in dashboard
+
+# ── Persistence ───────────────────────────────────────────────────────────────
+joblib==1.6.0                  # pipeline serialisation
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest==9.1.1
+
+# ── Notebook ──────────────────────────────────────────────────────────────────
+jupyter==1.0.0
+ipykernel==6.29.4
+nbconvert==7.16.4              # used to execute notebooks: jupyter nbconvert --execute

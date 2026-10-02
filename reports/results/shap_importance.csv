@@ -1,0 +1,49 @@
+feature,mean_abs_shap
+is_month_to_month,0.6643302941404142
+tenure,0.29605505242699265
+charge_gap,0.19498301566054208
+MonthlyCharges,0.17778494515393367
+PaymentMethod_Electronic check,0.17679767156085846
+contract_internet_Month-to-month_Fiber optic,0.1501737462242384
+Contract,0.1471517513650206
+InternetService_Fiber optic,0.13304344005551774
+PaperlessBilling_Yes,0.1067820456463262
+OnlineSecurity_Yes,0.08435848781000421
+TechSupport_Yes,0.07908013856167194
+InternetService_No,0.0756513853191741
+StreamingMovies_Yes,0.0727705777077788
+Dependents_Yes,0.07131750888298936
+monthly_charges_per_service,0.06764961580069209
+TotalCharges,0.06114618646114552
+contract_internet_One year_Fiber optic,0.057123287782815224
+avg_monthly_spend,0.05159305838225197
+num_services,0.04681112261031393
+contract_internet_One year_DSL,0.045670183477935
+PhoneService_Yes,0.0359397051227341
+MultipleLines_Yes,0.0351569474386074
+has_protection_bundle,0.03265340238892411
+OnlineBackup_Yes,0.02810679832357485
+contract_internet_Month-to-month_DSL,0.02284710727864229
+SeniorCitizen,0.021658927696920457
+gender_Male,0.02034403758649585
+StreamingTV_Yes,0.015344497761563847
+DeviceProtection_Yes,0.011071151176008253
+contract_internet_Two year_No,0.010319035599684289
+is_autopay,0.00896536321592837
+PaymentMethod_Mailed check,0.005699209190284
+contract_internet_Two year_DSL,0.0051133963799197685
+tenure_group_49-60,0.004289897093957548
+tenure_group_25-48,0.004236701094970014
+has_streaming,0.003994971733686285
+PaymentMethod_Credit card (automatic),0.0034189538597703658
+is_family,0.003160555068218819
+InternetService_DSL,0.0030152957799276033
+PaymentMethod_Bank transfer (automatic),0.0022466694698881967
+tenure_group_13-24,0.0008154366049954135
+is_new_customer,4.6454424446235814e-05
+Partner_Yes,0.0
+tenure_group_0-12,0.0
+tenure_group_60+,0.0
+contract_internet_Month-to-month_No,0.0
+contract_internet_One year_No,0.0
+contract_internet_Two year_Fiber optic,0.0

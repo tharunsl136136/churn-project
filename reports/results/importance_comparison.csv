@@ -1,0 +1,16 @@
+feature,shap_importance,permutation_importance,native_importance
+is_month_to_month,1.0,1.0,0.1039
+tenure,0.4644,0.7134,0.7229
+charge_gap,0.3134,0.3669,1.0
+PaymentMethod_Electronic check,0.2634,0.1666,0.1732
+MonthlyCharges,0.253,0.1176,0.7143
+Contract,0.2271,0.0255,0.0758
+contract_internet_Month-to-month_Fiber optic,0.222,0.0907,0.0498
+InternetService_Fiber optic,0.2004,0.1765,0.0693
+PaperlessBilling_Yes,0.1585,0.1884,0.1494
+OnlineSecurity_Yes,0.1272,0.0549,0.1494
+TechSupport_Yes,0.1239,0.062,0.1277
+InternetService_No,0.1151,0.033,0.0519
+StreamingMovies_Yes,0.1119,-0.0056,0.0952
+Dependents_Yes,0.1054,-0.0074,0.0909
+monthly_charges_per_service,0.1038,0.0669,0.6494

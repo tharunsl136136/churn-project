@@ -1,0 +1,16 @@
+segment_col,segment_val,n,churn_rate,precision,recall,f1
+Contract,Two year,339,0.041,0.2,0.071,0.105
+Contract,One year,284,0.127,0.343,0.667,0.453
+Contract,Month-to-month,786,0.412,0.463,0.972,0.627
+InternetService,No,303,0.073,0.261,0.545,0.353
+InternetService,DSL,482,0.178,0.361,0.849,0.507
+InternetService,Fiber optic,624,0.426,0.502,0.959,0.659
+SeniorCitizen,0,1170,0.232,0.425,0.89,0.575
+SeniorCitizen,1,239,0.427,0.527,0.961,0.681
+gender,Female,714,0.29,0.482,0.903,0.629
+gender,Male,695,0.24,0.416,0.916,0.572
+tenure_group,60+,292,0.058,0.196,0.529,0.286
+tenure_group,49-60,164,0.183,0.362,0.7,0.477
+tenure_group,25-48,318,0.223,0.399,0.887,0.55
+tenure_group,13-24,204,0.275,0.398,0.946,0.561
+tenure_group,0-12,431,0.464,0.537,0.97,0.692
